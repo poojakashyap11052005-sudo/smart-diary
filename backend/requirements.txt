@@ -1,0 +1,13 @@
+Flask>=3.0.0
+flask-cors>=4.0.0
+joblib>=1.3.0
+nltk>=3.8.0
+scikit-learn>=1.6.1,<1.8.0
+flask-cors
+# Note: If you encounter build errors with scikit-learn on Windows,
+# install it first with: pip install scikit-learn --only-binary :all:
+# This forces pip to use pre-built wheels instead of building from source.
+#
+# Version Note: Using scikit-learn 1.6.1+ to match model training version.
+# Versions 1.7.x will work but may show harmless warnings about version mismatch.
+
